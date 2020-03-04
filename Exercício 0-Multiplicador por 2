@@ -1,0 +1,10 @@
+#include <stdio.h>
+
+int main(void) {
+  int numero ;
+  printf("Digitata um numero inteiro\n");
+  scanf("%d",&numero);
+  printf("O número lido multiplicador por 2 é:\n%d",numero*2);
+
+  return 0;
+}
